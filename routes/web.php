@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/test', function (){
     return view('test', ['variable' => "my variable text value"]);
 });
+
+Route::get('/comments', function (){
+    return view('Comments');
+});
